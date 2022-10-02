@@ -26,6 +26,8 @@ footer {
 
 /*header*/
 
+/*logo*/
+
 .logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -37,6 +39,9 @@ footer {
 .web {
     color: var(--primary-bg-color)
 }
+
+/*header-sitenav*/
+
 .header-sitenav {
     font-family: 'Roboto';
     font-style: normal;
@@ -49,8 +54,23 @@ footer {
 .header-sitenav:focus {
     color: var(--primary-bg-color)
 }
+.sitenav {
+    display: flex;
+}
+.sitenav .list {
+    margin-right: 50px;
+}
+.sitenav .list:last-child {
+    margin-right: 0;
+}
 .sitenav .link.current {
     color: var(--primary-bg-color);
+}
+
+/*header-mail*/
+
+.mail {
+    display: flex;
 }
 
 .header-mail {
