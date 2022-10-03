@@ -129,6 +129,7 @@ footer {
     background-color: #2F303A;
 }
 .hero-title {
+
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Roboto';
@@ -142,6 +143,8 @@ footer {
     color: var(--title-text-color)
 }
 .hero-button {
+    
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -162,8 +165,12 @@ footer {
 
 /*преимущества*/
 
+.benefits-list {
+    display: flex;
+}
 
 .benefits-title {
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -182,6 +189,7 @@ footer {
 /*работа*/
 
 .work-title {
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
