@@ -9,22 +9,35 @@ header {
     background-color: #FFFFFF;
 }
 body {
+    margin: 0;
     background-color: #FFFFFF;
     font-family: 'Roboto' sans-serif;
 }
 footer {
     background-color: #2F303A;
 }
+
+/*утилиты*/
+
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 .link {
     text-decoration: none;
 }
 
+.container {
+
+}
 
 
 /*header*/
+
+.header-box {
+    display: flex;
+}
 
 /*logo*/
 
@@ -40,7 +53,14 @@ footer {
     color: var(--primary-bg-color)
 }
 
+/*main-nav*/
+
 /*header-sitenav*/
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 
 .header-sitenav {
     font-family: 'Roboto';
@@ -56,6 +76,7 @@ footer {
 }
 .sitenav {
     display: flex;
+    margin-left: 93px;
 }
 .sitenav .list {
     margin-right: 50px;
@@ -71,6 +92,10 @@ footer {
 
 .mail {
     display: flex;
+    margin-left: auto;
+}
+.mail .list + .list {
+    margin-left: 50px;
 }
 
 .header-mail {
@@ -104,6 +129,8 @@ footer {
     background-color: #2F303A;
 }
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 0;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
