@@ -33,9 +33,18 @@ footer {
 }
 
 .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.img {
+    display: block;
 }
 
 
@@ -64,6 +73,7 @@ footer {
 /*header-sitenav*/
 
 .header-nav {
+    
     display: flex;
     align-items: center;
 }
@@ -82,8 +92,16 @@ footer {
 }
 .sitenav {
     display: flex;
-    margin-left: 93px;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
     padding-left: 0;
+    
+    margin-left: 93px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+
 }
 .sitenav .list {
     margin-right: 50px;
@@ -99,8 +117,14 @@ footer {
 
 .mail {
     display: flex;
-    margin-left: auto;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
     padding-left: 0;
+    
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .mail .list + .list {
     margin-left: 50px;
@@ -180,11 +204,13 @@ footer {
 
 /*преимущества*/
 
-
+.benefits {
+    padding-bottom: 0;
+}
 .benefits-list {
     display: flex;
-    margin-left: 30px;
-    padding-left: 0;
+    margin: 0 auto;
+    
 }
 .benefits-list
 .benefits-item {
@@ -196,7 +222,6 @@ footer {
 }
 
 .benefits-title {
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -219,12 +244,12 @@ footer {
 
 .work {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+    margin: 0 auto;
 }
 
 .work-title {
+    margin-bottom: 50px;
+    text-align: center;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -236,15 +261,43 @@ footer {
 
 .work-list {
     display: flex;
+    padding-left: 0;
+    margin: 0;
+}
+.work-list
+.work-item {
+    margin-right: 30px;
+}
+.work-list
+.work-item:last-child {
+    margin-right: 0;
 }
 
 /*команда*/
 
 
 .team {
+    margin: 0 auto;
     background-color: #F5F4FA;
 }
+.team-list {
+    display: flex;
+    padding-left: 0;
+}
+.team-list
+.team-item {
+    margin-right: 30px;
+}
+
+.team-list
+.team-item:last-child {
+    margin-right: 0;
+}
+
 .team-title {
+    margin-bottom: 50px;
+    text-align: center;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -269,8 +322,15 @@ footer {
 }
 
 /*подвал*/
-
+.footer-list {
+    padding-top: 60px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .footer-logo {
+    
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
