@@ -49,7 +49,9 @@ footer {
 
 
 /*header*/
-
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
 .header-box {
     display: flex;
 }
@@ -180,6 +182,7 @@ footer {
 }
 .hero-button {
     display: block;
+    padding: 10px 32px;
     margin: 0 auto;
     border: none;
     border-radius: 4px;
@@ -191,6 +194,7 @@ footer {
     line-height: 1.9;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    letter-spacing: 0.06em;
     border-radius: 4px;
     color: #FFFFFF;
     cursor: pointer;
@@ -198,8 +202,6 @@ footer {
 .hero-button:hover,
 .hero-button:focus {
     background-color: #188CE8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
 }
 
 /*преимущества*/
@@ -402,14 +404,34 @@ footer {
 }
 
 /*portfolio-hero*/
-
+.portfolio-hero {
+    padding-bottom: 0;
+}
+.portfolio-button-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+    padding: 0;
+}
+.portfolio-button-item {
+    margin-right: 8px;
+}
+.portfolio-button-item:last-child {
+    margin-right: 0;
+}
 .portfolio-button {
+    padding: 6px 22px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-    text-align: center;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     letter-spacing: 0.03em;
     color: #212121;
     cursor: pointer;
@@ -417,10 +439,6 @@ footer {
 .portfolio-button:hover,
 .portfolio-button:focus {
     background: #2196F3;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    text-align: center;
-    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .portfolio-name {
