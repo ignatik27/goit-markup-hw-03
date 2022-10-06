@@ -213,7 +213,10 @@ footer {
     display: flex;
     margin: 0 auto;
     padding-left: 0;
-    
+    justify-content: center;
+}
+.benefits-item {
+    width: 270px;
 }
 .benefits-list
 .benefits-item {
@@ -233,6 +236,8 @@ footer {
     color: var(--primary-text-color)
 }
 .benefits-text {
+    margin-top: 10px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
@@ -266,6 +271,8 @@ footer {
     display: flex;
     padding-left: 0;
     margin: 0;
+    justify-content: center;
+    align-items: center;
 }
 .work-list
 .work-item {
@@ -287,6 +294,8 @@ footer {
 .team-list {
     display: flex;
     padding-left: 0;
+    justify-content: center;
+    align-items: center;
 }
 .team-list
 .team-item {
@@ -346,6 +355,8 @@ footer {
     padding: 0;
 }
 .footer-list {
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
     
 }
@@ -364,7 +375,11 @@ footer {
 .footer-web {
     color: var(--primary-bg-color)
 }
+.footer-item {
+    margin-bottom: 9px;
+}
 .footer-address {
+
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
@@ -378,6 +393,7 @@ footer {
 }
 
 .footer-mail {
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -441,6 +457,24 @@ footer {
     background: #2196F3;
     color: #FFFFFF;
 }
+.portfolio-section {
+    padding-top: 0;
+}
+.portfolio-img-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.portfolio-img {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+}
+.portfolio-text {
+    padding: 20px 24px;
+}
 .portfolio-name {
     font-family: 'Roboto';
     font-style: normal;
@@ -451,6 +485,8 @@ footer {
     color: var(--primary-text-color)
 }
 .portfolio-title {
+    margin-top: 4px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
