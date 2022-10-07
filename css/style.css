@@ -33,7 +33,7 @@ footer {
 }
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -43,11 +43,7 @@ footer {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
+
 
 
 /*header*/
@@ -83,6 +79,12 @@ footer {
 }
 
 .header-sitenav {
+    display: block;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 0;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -95,11 +97,9 @@ footer {
     color: var(--primary-bg-color)
 }
 .sitenav {
-    display: flex;
 
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 0;
+
+    display: flex;
     
     margin-left: 93px;
     margin-top: 0;
@@ -122,10 +122,7 @@ footer {
 .mail {
     display: flex;
 
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 0;
-    
+    align-items: center;
     margin-left: auto;
     margin-top: 0;
     margin-bottom: 0;
@@ -135,6 +132,11 @@ footer {
 }
 
 .header-mail {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 0;
+    
+    display: block;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -171,6 +173,8 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px; 
+    
+    width: 696px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -230,6 +234,8 @@ footer {
 }
 
 .benefits-title {
+    margin-bottom: 10px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -238,7 +244,6 @@ footer {
     color: var(--primary-text-color)
 }
 .benefits-text {
-    margin-top: 10px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -284,6 +289,11 @@ footer {
 .work-item:last-child {
     margin-right: 0;
 }
+.work-item {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 /*команда*/
 
@@ -308,6 +318,11 @@ footer {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+.team-item {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .team-list
 .team-item:last-child {
     margin-right: 0;
@@ -325,7 +340,7 @@ footer {
     color: var(--primary-text-color)
 }
 .team-name {
-    margin-top: 30px;
+    padding-top: 30px;
     margin-bottom: 10px;
 
     font-family: 'Roboto';
@@ -336,7 +351,7 @@ footer {
     color: var(--primary-text-color)
 }
 .job-title {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -349,6 +364,7 @@ footer {
 
 .footer-box {
     padding-top: 60px;
+    padding-bottom: 60px;
     margin: 0 auto;
 }
 
@@ -363,16 +379,15 @@ footer {
     
 }
 .footer-logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     color: var(--title-text-color)
-}
-.footer-address {
-    padding-top: 20px;
-    padding-bottom: 60px;
 }
 .footer-web {
     color: var(--primary-bg-color)
@@ -381,8 +396,6 @@ footer {
     margin-bottom: 9px;
 }
 .footer-address {
-
-    font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -422,7 +435,24 @@ footer {
 }
 
 /*portfolio-hero*/
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.portfolio-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .portfolio-hero {
+    padding-top: 0;
     padding-bottom: 0;
 }
 .portfolio-button-list {
@@ -459,9 +489,6 @@ footer {
     background: #2196F3;
     color: #FFFFFF;
 }
-.portfolio-section {
-    padding-top: 0;
-}
 .portfolio-img-list {
     padding: 0;
     margin: 0;
@@ -479,10 +506,18 @@ footer {
 .portfolio-img {
     margin-right: 30px;
     margin-bottom: 30px;
-    border: 1px solid #EEEEEE;
+    
+}
+.portfolio-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 .portfolio-text {
     padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 .portfolio-name {
     font-family: 'Roboto';
